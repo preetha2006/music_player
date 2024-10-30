@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#left, #right{
+    width: 200px;
+    height: 300px;
+    border-color: azure;
+    border-style: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-width: 2px;
+}
+
+.list{
+    color: white;
+    background-color: rgb(193, 65, 65);
+    width: 100%;
+}
